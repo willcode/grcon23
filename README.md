@@ -6,7 +6,7 @@ The flags are all in voice tracks, read using the phonetic alphabet. Flags 1 and
 
 The intended solution for these flags was to add/subtract the two channels. It turned out that this also worked out as audio center and stereo wide right, so a set of stereo headphones or speakers was sufficient.
 
-Flags 3 and 4 are a little harder. Two additional mono channels representing `Flag3-(Flag1+Flag2)` and `Flag4-(Flag1-Flag2)`were frequency shifted. The intended solution was to shift them back to center and subtract off the interfering sounds.
+Flags 3 and 4 are a little harder. Two additional mono channels representing `Flag3+(Flag1+Flag2)` and `Flag4+(Flag1-Flag2)`were frequency shifted. The intended solution was to shift them back to center and subtract off the interfering sounds.
 
 See ctf_mix.grc and ctf_unmix.grc.
 
